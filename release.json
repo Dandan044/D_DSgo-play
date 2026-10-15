@@ -2,8 +2,8 @@
   "title": "小肥鲸 · 风铃庭院",
   "files": {
     "index.html": {
-      "bytes": 3099,
-      "sha256": "b17d1e55d01181bc4abf69094598378894dc39a1fbda679a759bdc6571180790"
+      "bytes": 3069,
+      "sha256": "527897149e20b0b8dc39b689ceea1dd1449d5047a48b703a932cbd9208033b1c"
     },
     "style.css": {
       "bytes": 6254,
@@ -26,8 +26,8 @@
       "sha256": "e013d2d83b1b5ec8be5326eff9167c453330f10a492813a9300aad1c32df0911"
     },
     "game.js": {
-      "bytes": 23584,
-      "sha256": "859beb8aa38fcfc5113179d995a00794992d5fa00a2f03082bfe175bfaaa01e1"
+      "bytes": 23310,
+      "sha256": "8f8c5c067194c91528d1dbf6d45566ebefa785b739bb5c8a93e6eb5a8f0fd780"
     },
     "assets/idle.png": {
       "bytes": 1577582,
