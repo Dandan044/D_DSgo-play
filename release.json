@@ -1,0 +1,81 @@
+{
+  "title": "小肥鲸 · 风铃庭院",
+  "files": {
+    "index.html": {
+      "bytes": 3099,
+      "sha256": "b17d1e55d01181bc4abf69094598378894dc39a1fbda679a759bdc6571180790"
+    },
+    "style.css": {
+      "bytes": 6254,
+      "sha256": "7814e62e583ed69bfeb2aebfa59197823fec46291bf7edeb315fd2e6e3b2490d"
+    },
+    "physics.js": {
+      "bytes": 4439,
+      "sha256": "1daf02a587ff595bba15d6cad610a60f205df0b23738af2f18248f7b4f762cbb"
+    },
+    "combat.js": {
+      "bytes": 1258,
+      "sha256": "60207601e7c643f0b0284e952f971b7fd556fe640501756f5717b7f8b6b6aaed"
+    },
+    "face.js": {
+      "bytes": 867,
+      "sha256": "b1435c192ea18b8a722e0dca74fa939ea5b3c6f5944461abf5f155e652e7f7e6"
+    },
+    "idle.js": {
+      "bytes": 682,
+      "sha256": "e013d2d83b1b5ec8be5326eff9167c453330f10a492813a9300aad1c32df0911"
+    },
+    "game.js": {
+      "bytes": 23584,
+      "sha256": "859beb8aa38fcfc5113179d995a00794992d5fa00a2f03082bfe175bfaaa01e1"
+    },
+    "assets/motion.png": {
+      "bytes": 1675667,
+      "sha256": "3607b1c392fda04eb9c7c68b3b75ce1cb33598241c31369a59b8e99e5f399fd6"
+    },
+    "assets/attack.png": {
+      "bytes": 826954,
+      "sha256": "eb7ba162858b9eb52a24c3fc3bc1bfb03379f3bc318729ce87989a0a351069b3"
+    },
+    "assets/attackRun.png": {
+      "bytes": 3204195,
+      "sha256": "324c593e92e1d9d672f31283b4759953b54be73715c2fce47ec5bb747351aec1"
+    },
+    "assets/attackCrouch.png": {
+      "bytes": 2584146,
+      "sha256": "48a6113548ad7c74c8c6974e97f4ffb623c556b591ead21f08f63d00e4fbd46d"
+    },
+    "assets/attackRunBack.png": {
+      "bytes": 1971123,
+      "sha256": "5809ee3853163e7c2d62894291282f2a64c5744d0571b2409065aabfb74135ef"
+    },
+    "assets/attackCrouchBack.png": {
+      "bytes": 1692960,
+      "sha256": "b3d211bbe1ca2191321c4c83e7ecc1316e2be6d338036762edb2cdffdaf963fe"
+    },
+    "assets/run.png": {
+      "bytes": 1238682,
+      "sha256": "73c59f877764367444eac371021f4b8ab2ab0c8a3fa1ac498aceb02413e99a8a"
+    },
+    "assets/idleSide.png": {
+      "bytes": 1477184,
+      "sha256": "3e5d892d74a91c1e0159da8148e8f948646bd63a659f6f4ded501bf88ec1158a"
+    },
+    "assets/idle.png": {
+      "bytes": 1577582,
+      "sha256": "347d7481058896a3eea7250aa8bea572c9d3f5a2cd00f85d50c6bc2e1c73b2a8"
+    },
+    "assets/expressions.png": {
+      "bytes": 74317,
+      "sha256": "7cb3b8de8e6e26be11241714713bdd7a7b584baf4a56f93264eb80991487946f"
+    },
+    "assets/actions.js": {
+      "bytes": 42130,
+      "sha256": "c5aaceecdc7be09e08a964afc08d8f468658bbb5178bacf8389827537ce2937a"
+    },
+    "assets/expressions.js": {
+      "bytes": 5505,
+      "sha256": "57e6bdb0fad73639acf869849b26bc797acc315e1ea140e84a488470221cd924"
+    }
+  }
+}
