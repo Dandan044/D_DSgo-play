@@ -269,6 +269,19 @@
     }
     draw();updateUI();
   }
-  Promise.all(['idle','idleSide','run','crouch','jump','motion','attack','attackRun','attackCrouch','attackRunBack','attackCrouchBack','expressions'].map(name=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>{images[name]=im;resolve();};im.onerror=()=>reject(new Error(name));im.src='assets/'+name+'.png';}))).then(()=>{cacheFacePatches();ready=true;$('#loading').style.display='none';draw();}).catch(e=>{$('#loading').textContent='角色素材加载失败：'+e.message+'。请保留 assets 文件夹并重新打开。';});
+  const assetNames=['idle','idleSide','run','crouch','jump','motion','attack','attackRun','attackCrouch','attackRunBack','attackCrouchBack','expressions'];
+  let loadedAssets=0;
+  function updateLoading(){
+    $('#loading-progress').max=assetNames.length;
+    $('#loading-progress').value=loadedAssets;
+    $('#loading-count').textContent=`已加载 ${loadedAssets} / ${assetNames.length} · ${Math.round(loadedAssets/assetNames.length*100)}%`;
+  }
+  updateLoading();
+  Promise.all(assetNames.map(name=>new Promise((resolve,reject)=>{
+    const im=new Image();
+    im.onload=()=>{images[name]=im;loadedAssets++;updateLoading();resolve();};
+    im.onerror=()=>reject(new Error(name));
+    im.src='assets/'+name+'.png';
+  }))).then(()=>{cacheFacePatches();ready=true;$('#loading').style.display='none';draw();}).catch(e=>{$('#loading-message').textContent='素材 '+e.message+' 加载失败，请刷新页面重试。';});
   requestAnimationFrame(loop);
 })();
