@@ -29,6 +29,26 @@
       "bytes": 23584,
       "sha256": "859beb8aa38fcfc5113179d995a00794992d5fa00a2f03082bfe175bfaaa01e1"
     },
+    "assets/idle.png": {
+      "bytes": 1577582,
+      "sha256": "347d7481058896a3eea7250aa8bea572c9d3f5a2cd00f85d50c6bc2e1c73b2a8"
+    },
+    "assets/idleSide.png": {
+      "bytes": 1477184,
+      "sha256": "3e5d892d74a91c1e0159da8148e8f948646bd63a659f6f4ded501bf88ec1158a"
+    },
+    "assets/run.png": {
+      "bytes": 1238682,
+      "sha256": "73c59f877764367444eac371021f4b8ab2ab0c8a3fa1ac498aceb02413e99a8a"
+    },
+    "assets/crouch.png": {
+      "bytes": 1159254,
+      "sha256": "00a8889c939b4d7cc38d722b7679eb1481afb9d6a13a2ba6bd05eb9f78ae836e"
+    },
+    "assets/jump.png": {
+      "bytes": 1286257,
+      "sha256": "e92da1612993b9c0b2549ad5cd6291adf7194628d433be2aad3035b311016725"
+    },
     "assets/motion.png": {
       "bytes": 1675667,
       "sha256": "3607b1c392fda04eb9c7c68b3b75ce1cb33598241c31369a59b8e99e5f399fd6"
@@ -52,18 +72,6 @@
     "assets/attackCrouchBack.png": {
       "bytes": 1692960,
       "sha256": "b3d211bbe1ca2191321c4c83e7ecc1316e2be6d338036762edb2cdffdaf963fe"
-    },
-    "assets/run.png": {
-      "bytes": 1238682,
-      "sha256": "73c59f877764367444eac371021f4b8ab2ab0c8a3fa1ac498aceb02413e99a8a"
-    },
-    "assets/idleSide.png": {
-      "bytes": 1477184,
-      "sha256": "3e5d892d74a91c1e0159da8148e8f948646bd63a659f6f4ded501bf88ec1158a"
-    },
-    "assets/idle.png": {
-      "bytes": 1577582,
-      "sha256": "347d7481058896a3eea7250aa8bea572c9d3f5a2cd00f85d50c6bc2e1c73b2a8"
     },
     "assets/expressions.png": {
       "bytes": 74317,
